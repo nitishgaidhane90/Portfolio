@@ -77,7 +77,7 @@ window.portfolioData = {
         ],
         [
           "Outcomes",
-          "MVP in development. The commercial plan targets potential revenue of up to $5M over two years; this is a forward-looking target, not realized revenue."
+          "MVP in development. The product is currently in MVP development and is intended to create a new enterprise data revenue opportunity; no realized revenue is claimed."
         ]
       ],
       "proof": [
@@ -625,7 +625,7 @@ window.portfolioData = {
       ],
       "points": [
         "Drive Reference Solutions product strategy contributing to 95%+ annual revenue retention versus a 93% target.",
-        "Lead Data Quality Center 0-to-1 MVP development; commercial plan targets potential revenue of up to $5M over two years.",
+        "Lead Data Quality Center 0-to-1 MVP development; the product targets a new commercial growth opportunity.",
         "Work across products on multi-tenancy, account administration, payments, authentication, and authorization.",
         "Drive roadmap and investment decisions using customer needs, market opportunities, analytics, and business objectives.",
         "Delivered GenAI email copy capability (30% less campaign creation time) and Smart Audience Recommendation (10% less audience identification time).",
