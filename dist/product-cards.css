@@ -1,0 +1,75 @@
+/* Compact Product Lab cards: content first, no screenshot preview panels. */
+.lab-grid{gap:20px;align-items:stretch}
+.lab-card{position:relative;background:#fff;overflow:hidden;border:1px solid #D1DCDA;min-width:0}
+.lab-card:before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--teal);opacity:0;transition:opacity .2s}
+.product-card-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:25px 25px 0}
+.product-icon{width:42px;height:42px;flex:0 0 42px;border:1px solid #C9DED6;border-radius:10px;color:var(--teal);background:#F0F7F3;display:grid;place-items:center;transition:background .2s,color .2s}
+.product-icon svg{width:25px;height:25px}
+.product-card-top .project-status{font-size:8px;line-height:1.6;letter-spacing:.6px;color:#405F65;border:1px solid #D8E2DD;padding:5px 8px;border-radius:3px;text-align:right;text-transform:uppercase}
+.lab-card .lab-body{padding:24px 25px 22px;display:flex;flex-direction:column}
+.product-category{font-size:9px;letter-spacing:1.3px;font-weight:600;color:var(--teal);line-height:1.5}
+.lab-card .lab-body h3{margin:10px 0 13px;font-size:29px;line-height:1.25;font-weight:500;letter-spacing:-.8px}
+.lab-card .lab-body .product-purpose{font-size:16px;line-height:1.5;color:var(--navy);min-height:48px;margin:0 0 13px}
+.lab-card .lab-body .product-description{font-size:13px;line-height:1.8;color:#506170;margin:0 0 20px;min-height:70px}
+.product-features{list-style:none;display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px;padding:0}
+.product-features li{font-size:10px;line-height:1.6;color:#365D59;background:#F0F5F1;border:1px solid #DCE7E0;padding:4px 8px;border-radius:3px}
+.lab-card .lab-body .tech{font-size:10px;line-height:1.7;color:#506170;padding-bottom:20px;margin:0}
+.lab-card .lab-actions{border-top:1px solid var(--line);padding-top:17px;gap:13px 17px;align-items:center;margin-top:auto}
+.product-story-link{display:inline-flex;align-items:center;gap:16px;font-size:11px;font-weight:600;color:var(--teal);padding:8px 0}
+.product-story-link>span{transition:transform .2s}
+.lab-actions .text-link{font-size:10px;padding:5px 0}
+.lab-card .access-note{font-size:9px;line-height:1.7;margin-top:12px;color:#506170}
+.lab-card:focus-within:before{opacity:1}
+.lab-card:focus-within .product-icon{background:var(--teal);color:#fff}
+.lab-card:focus-within .product-story-link>span{transform:translateX(4px)}
+@media(hover:hover) and (pointer:fine){
+ .lab-card:hover:before{opacity:1}
+ .lab-card:hover .product-icon{background:var(--teal);color:#fff}
+ .product-story-link:hover>span{transform:translateX(4px)}
+ .product-story-link:hover{color:#065953}
+}
+@media(max-width:900px) and (min-width:641px){
+ .product-card-top{padding:20px 18px 0;flex-wrap:wrap;gap:10px}
+ .product-card-top .project-status{font-size:8px;text-align:left}
+ .lab-card .lab-body{padding:20px 18px}
+ .lab-card .lab-body h3{font-size:25px}
+ .lab-card .lab-body .product-purpose{font-size:14px;min-height:66px}
+ .lab-card .lab-body .product-description{font-size:12px;min-height:110px}
+}
+@media(max-width:640px){
+ .lab-grid{gap:18px}
+ .product-card-top{padding:22px 23px 0}
+ .product-card-top .project-status{font-size:8px}
+ .lab-card .lab-body{padding:21px 23px 22px}
+ .lab-card .lab-body h3{font-size:28px}
+ .lab-card .lab-body .product-purpose{min-height:0;font-size:16px}
+ .lab-card .lab-body .product-description{min-height:0;font-size:13px;margin-bottom:18px}
+ .product-features li{font-size:11px}
+ .lab-card .lab-body .tech{font-size:11px;padding-bottom:18px}
+ .product-story-link{font-size:12px;min-height:42px}
+ .lab-actions .text-link{font-size:11px;min-height:42px}
+ .lab-card .access-note{font-size:10px}
+ .header-actions{gap:0}
+}
+@media(prefers-reduced-motion:reduce){.product-icon,.product-story-link>span,.lab-card:before{transition:none}.product-story-link>span{transform:none!important}}
+/* Final readability refinements; existing layout and identity retained. */
+.company-context{padding:0}
+.company-context summary{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:13px 16px;cursor:pointer;font-size:11px;font-weight:600;color:var(--navy);list-style:none}
+.company-context summary span{color:var(--teal)}
+.company-context[open] summary span{transform:rotate(45deg)}
+.company-context p{padding:0 16px 15px;margin:0;font-size:12px;line-height:1.8}
+.company-context summary:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+@media(max-width:640px){
+ .hero h1{font-size:38px;line-height:1.12}
+ .hero-lens{padding:20px}
+ #lens-content{min-height:170px}
+ .career-tabs button{font-size:11px;padding:12px 9px;min-height:94px}
+ .career-tabs button small{font-size:10px;line-height:1.5}
+ .detail-heading{font-size:28px;line-height:1.18;margin:13px 0 18px}
+ #detail-content{padding:24px 20px 30px}
+ .detail-intro{font-size:14px;line-height:1.75}
+ .detail-section p{font-size:13px;line-height:1.8}
+ .lab-actions{row-gap:8px}
+ .contact-ctas .button{min-height:48px}
+}
+@media(max-width:360px){.hero h1{font-size:33px}.career-tabs button{font-size:10px}.career-tabs button small{font-size:9px}.case-card .case-copy h3,.case-card:first-child .case-copy h3{font-size:23px}}

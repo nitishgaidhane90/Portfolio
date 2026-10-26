@@ -1,0 +1,125 @@
+/* Version 1.1: content clarity, compact spacing, and recruiter actions. */
+.section{padding:66px 0}
+.section-head{margin-bottom:32px}
+.hero-grid{padding:32px 0 44px;gap:48px}
+.positioning{font-size:12px;line-height:1.7;letter-spacing:.1px;color:#BBDDD5;margin:0 0 18px;max-width:700px}
+.hero .actions{gap:14px;flex-wrap:wrap;margin-top:25px}
+.hero .resume-download{background:transparent;color:#F6F5F1;border-color:#77959F}
+.hero .resume-download:hover{background:#234255;border-color:#A5D7CE}
+.hero .actions .button{font-size:12px}
+.header-actions{display:none}
+nav{gap:19px}
+.nav-resume{padding:9px 12px;background:var(--teal);color:#fff;border-radius:4px;border:1px solid var(--teal);white-space:nowrap}
+nav a.nav-resume:hover,nav a.nav-resume:focus-visible{background:#066C67;color:#fff}
+nav>a.nav-resume:after{display:none}
+.experience-impact{background:#fff;border-bottom:1px solid var(--line);padding:22px 0 18px}
+.impact-caption{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:16px}
+.impact-caption h2{font-size:11px;line-height:1.5;letter-spacing:1px;text-transform:uppercase;margin:0;font-weight:700}
+.impact-caption>span{font-size:10px;color:#506170}
+.impact-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.impact-values>div{padding:0 25px;border-right:1px solid var(--line)}
+.impact-values>div:first-child{padding-left:0}
+.impact-values>div:last-child{border-right:0}
+.impact-values strong{display:block;font-size:35px;line-height:1.2;font-weight:500;letter-spacing:-1px;color:var(--teal)}
+.impact-values span{display:block;font-size:11px;color:#405B68;margin-top:6px;max-width:270px}
+.experience-impact .wrap>p{font-size:10px;line-height:1.6;color:#506170;margin:15px 0 0}
+.career-panel{padding:30px}
+.career-body{gap:40px}
+.career-facts{margin:23px 0}
+.case-card .case-copy h3,.case-card:first-child .case-copy h3{font-size:25px;line-height:1.23}
+.case-card:first-child .case-copy h3{font-size:28px}
+.case-card .case-outcome{padding-bottom:16px}
+.company-context{font-size:12px;line-height:1.8;color:#506170;background:#EDF2EE;padding:15px 18px;margin:20px 0}
+.company-context>strong{display:block;font-size:10px;color:var(--navy);letter-spacing:.8px;text-transform:uppercase;margin-bottom:5px}
+.detail-tabs{gap:24px}
+.detail-tabs button{font-size:11px}
+.detail-section h3{line-height:1.6}
+.contact-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.contact-section{padding-top:56px}
+.contact-section h2{margin:20px 0 28px}
+.contact-row{gap:25px;padding-bottom:8px;flex-wrap:wrap}
+.contact-ctas .button{gap:15px}
+.version-label{display:inline-block;border-left:1px solid #587382;margin-left:12px;padding-left:12px;font-size:9px;color:#BBDDD5}
+.lab-card .lab-visual,.lab-card:nth-child(2) .lab-visual,.lab-card:nth-child(3) .lab-visual,.lab-buywise-lite .lab-visual{background:#F0F3EF!important;color:var(--navy);min-height:190px;padding:20px;gap:14px;justify-content:flex-start}
+.lab-card .lab-visual:before,.lab-card .lab-visual:after{display:none}
+.lab-card .lab-visual .project-status{color:#3F625E;line-height:1.6}
+.screenshot-placeholder{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:5px;min-height:130px;border:1px dashed #A2B6AE;background:#FAFCF9;width:100%;padding:15px;color:#46645E}
+.screenshot-placeholder>span:not(.screenshot-outline){font-size:12px}
+.screenshot-placeholder small{font-size:10px;color:#506170}
+.screenshot-outline{width:27px;height:20px;border:1px solid #7D9990;border-radius:2px;position:relative;margin-bottom:6px}
+.screenshot-outline:after{content:'';position:absolute;left:4px;right:4px;bottom:4px;height:6px;border-bottom:1px solid #7D9990;border-left:1px solid #7D9990;transform:skewY(-20deg)}
+.product-screenshot{display:block;width:100%;height:auto;object-fit:contain;border:1px solid var(--line);border-radius:4px}
+.lab-body{padding:23px}
+.lab-actions{gap:13px 18px}
+.lab-actions .text-link{font-size:11px}
+.github-link{white-space:nowrap}
+.project-screenshot-area{margin-top:24px}
+.project-screenshot-area .screenshot-placeholder{min-height:180px}
+.project-open{gap:14px}
+.project-open .github-link{font-size:12px}
+@media(max-width:1180px){nav{gap:12px;font-size:11px}.header{gap:16px}.nav-resume{padding:8px 10px}.hero-grid{gap:30px}}
+@media(max-width:900px){
+ .header-actions{display:flex;align-items:center;gap:8px}
+ .header-resume-mobile{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 11px;background:var(--teal);color:#fff;border-radius:4px;font-size:12px;white-space:nowrap}
+ nav .nav-resume{display:none}
+ nav{font-size:12px;gap:10px 25px}
+ .contact-ctas{gap:12px}
+ .section{padding:56px 0}
+ .hero-grid{gap:25px}
+}
+@media(max-width:640px){
+ .section{padding:46px 0}
+ .section-head{margin-bottom:24px}
+ .header{padding:0 16px;gap:10px}
+ .header-actions .menu{font-size:0;min-width:44px;min-height:44px;padding:7px 9px;justify-content:center;align-items:center}
+ .header-actions .menu span{font-size:17px}
+ .brand{gap:10px;font-size:12px}
+ .monogram{padding-right:12px}
+ .brand small{font-size:6px;letter-spacing:.8px}
+ .positioning{font-size:11px;line-height:1.8;margin-bottom:17px;color:#C3E0DA}
+ .hero-grid{padding:28px 0 33px;gap:25px}
+ .hero h1{font-size:40px;letter-spacing:-1.6px}
+ .hero .actions{gap:10px}
+ .hero .actions .button{font-size:11px;padding:12px 15px;gap:15px}
+ .experience-impact{padding:20px 0 17px}
+ .impact-caption{display:block;margin-bottom:15px}
+ .impact-caption h2{font-size:10px;margin-bottom:5px}
+ .impact-caption>span{font-size:9px}
+ .impact-values{gap:10px}
+ .impact-values>div,.impact-values>div:first-child{padding:0 8px 0 0}
+ .impact-values>div:last-child{padding-right:0}
+ .impact-values strong{font-size:27px;letter-spacing:-.8px}
+ .impact-values span{font-size:9px;line-height:1.6;margin-top:7px}
+ .experience-impact .wrap>p{font-size:9px;line-height:1.7;margin-top:13px}
+ .career-panel{padding:22px 18px}
+ .career-body{gap:24px}
+ .case-card .case-copy h3,.case-card:first-child .case-copy h3{font-size:24px}
+ .case-card{min-height:370px}
+ .detail-tabs{gap:12px;justify-content:space-between}
+ .detail-tabs button{font-size:10px;line-height:1.6;min-height:48px}
+ .detail-section h3{font-size:12px}
+ .company-context{padding:13px 15px;font-size:12px}
+ .contact-section{padding-top:44px}
+ .contact-ctas{gap:10px}
+ .contact-ctas .button{font-size:11px;padding:12px 14px}
+ .lab-card .lab-visual{min-height:175px}
+ .project-open{align-items:flex-start}
+}
+@media(max-width:360px){
+ .header{padding:0 12px;gap:6px}
+ .brand{gap:7px;font-size:11px}
+ .monogram{font-size:27px;padding-right:8px}
+ .brand small{font-size:5px;letter-spacing:.5px}
+ .header-actions{gap:5px}
+ .header-actions .menu{padding:6px;min-width:40px;width:40px}
+ .header-resume-mobile{padding:8px;min-width:44px}
+ .hero h1{font-size:34px;letter-spacing:-1.3px}
+}
+@media(max-width:640px){
+ .impact-values{grid-template-columns:1fr;gap:12px}
+ .impact-values>div,.impact-values>div:first-child,.impact-values>div:last-child{display:grid;grid-template-columns:95px 1fr;align-items:center;gap:10px;padding:0 0 12px;border-right:0;border-bottom:1px solid var(--line)}
+ .impact-values>div:last-child{border-bottom:0;padding-bottom:0}
+ .impact-values strong{font-size:30px}
+ .impact-values span{font-size:12px;line-height:1.6;margin:0;max-width:none}
+ .experience-impact .wrap>p{font-size:10px}
+}
