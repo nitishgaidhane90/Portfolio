@@ -1,6 +1,141 @@
 window.portfolioData = {
   "studies": [
     {
+      "id": "reference-retention",
+      "company": "Data Axle",
+      "group": "saas",
+      "title": "Sustaining 95%+ annual revenue retention at Reference Solutions",
+      "summary": "Drive product strategy and roadmap initiatives contributing to recurring-revenue retention for an established B2B SaaS product.",
+      "metric": "95%+",
+      "caption": "Annual revenue retention · 93% business target",
+      "context": "Data Axle Solutions · Reference Solutions · 2021–Present",
+      "sections": [
+        [
+          "Business Problem",
+          "Sustain customer value and recurring revenue in a mature B2B SaaS product."
+        ],
+        [
+          "Product Ownership",
+          "Drive product strategy and roadmap priorities that contribute to revenue retention; commercial accountability is shared rather than a direct revenue KPI ownership claim."
+        ],
+        [
+          "Approach",
+          "Balance customer needs, product improvements, and business priorities to support long-term product value."
+        ],
+        [
+          "Key Decisions",
+          "Product-level prioritization and investment trade-offs; specific examples can be added when cleared for public disclosure."
+        ],
+        [
+          "Cross-functional Collaboration",
+          "Work across product, engineering, and business stakeholders to align roadmap choices with customer and retention needs."
+        ],
+        [
+          "Outcomes",
+          "Reference Solutions has consistently achieved 95%+ annual revenue retention against a 93% target. This is a product/business outcome supported by product strategy, not revenue independently generated."
+        ]
+      ],
+      "proof": [
+        "Mature SaaS",
+        "Retention-oriented roadmap",
+        "Commercial outcomes"
+      ],
+      "accent": "teal",
+      "intro": "Product strategy supporting recurring revenue retention at Reference Solutions.",
+      "detailNote": "Retention reflects the product's annual result; attribution to any individual roadmap initiative is not quantified.",
+      "businessContext": "Reference Solutions is part of the Data Axle SaaS portfolio."
+    },
+    {
+      "id": "data-quality-center",
+      "company": "Data Axle",
+      "group": "saas",
+      "title": "Building Data Quality Center from zero to one",
+      "summary": "Leading MVP development of an enterprise data product to improve inconsistent, inaccurate, and stale customer datasets.",
+      "metric": "0 → 1",
+      "caption": "New enterprise data product · MVP in development",
+      "context": "Data Axle Solutions · Data Quality Center · Current",
+      "sections": [
+        [
+          "Business Problem",
+          "Customer datasets can contain inaccurate, inconsistent, and stale records that limit usefulness."
+        ],
+        [
+          "Product Ownership",
+          "Leading 0-to-1 product development and shaping requirements, roadmap priorities, and solution direction."
+        ],
+        [
+          "Approach",
+          "Develop an enterprise solution enabling customers to enrich and enhance data quality. The MVP is in development; functionality and adoption should not be described as already launched."
+        ],
+        [
+          "Key Decisions",
+          "Define MVP scope and prioritize data-quality needs; implementation-specific decisions are not disclosed."
+        ],
+        [
+          "Cross-functional Collaboration",
+          "Partner with engineering and cross-functional stakeholders to translate customer data challenges into product capabilities."
+        ],
+        [
+          "Outcomes",
+          "MVP in development. The commercial plan targets potential revenue of up to $5M over two years; this is a forward-looking target, not realized revenue."
+        ]
+      ],
+      "proof": [
+        "0-to-1 product",
+        "Enterprise data quality",
+        "MVP development"
+      ],
+      "accent": "gold",
+      "intro": "Leading the creation of Data Quality Center, a new enterprise data quality product.",
+      "detailNote": "Forward-looking commercial opportunity; no revenue, launch, or adoption is claimed.",
+      "businessContext": "New enterprise data product in development."
+    },
+    {
+      "id": "saas-foundations",
+      "company": "Data Axle",
+      "group": "saas",
+      "title": "Building enterprise SaaS platform foundations",
+      "summary": "Worked across multiple products on account administration, multi-tenancy, payments, authentication, and authorization.",
+      "metric": "Platform",
+      "caption": "Cross-product enterprise capabilities",
+      "context": "Data Axle Solutions · Multiple SaaS products",
+      "sections": [
+        [
+          "Business Problem",
+          "Enterprise customers need configurable, secure, and manageable account and checkout experiences."
+        ],
+        [
+          "Product Ownership",
+          "Contributed product direction and requirements across multiple products for account administration and settings, multi-tenancy, payment integrations and checkout, authentication, and authorization."
+        ],
+        [
+          "Approach",
+          "Translate customer and platform needs into product capabilities, working with engineering on integration and experience considerations."
+        ],
+        [
+          "Key Decisions",
+          "Consider enterprise account management, security, and usability needs; architecture and specific permission models are not claimed without further evidence."
+        ],
+        [
+          "Cross-functional Collaboration",
+          "Partner with engineering and business stakeholders on foundational SaaS capabilities."
+        ],
+        [
+          "Outcomes",
+          "Delivered experience across core platform capabilities; no unsupported adoption, conversion, or security metrics are claimed."
+        ]
+      ],
+      "proof": [
+        "Multi-tenancy",
+        "Payments & checkout",
+        "Identity & access"
+      ],
+      "accent": "navy",
+      "intro": "Cross-product enterprise platform capabilities supporting scalable SaaS experiences.",
+      "detailNote": "Specific product-level metrics and architectural implementation details are not publicly documented.",
+      "businessContext": "Platform work across multiple products."
+    },
+    {
       "id": "auction",
       "company": "Bajaj Finance",
       "group": "operations",
@@ -469,8 +604,12 @@ window.portfolioData = {
       "role": "Product Manager",
       "period": "April 2021–Present",
       "theme": "Enterprise SaaS · AI · Data",
-      "intro": "Strategy, discovery, delivery, and adoption across two B2B SaaS products with $40M+ combined annual revenue and 50,000+ customers.",
+      "intro": "Product strategy across enterprise SaaS, including Reference Solutions retention, 0-to-1 Data Quality Center MVP development, and AI-enabled capabilities.",
       "facts": [
+        [
+          "95%+",
+          "Reference Solutions annual retention"
+        ],
         [
           "15+",
           "releases annually"
@@ -485,11 +624,26 @@ window.portfolioData = {
         ]
       ],
       "points": [
+        "Drive Reference Solutions product strategy contributing to 95%+ annual revenue retention versus a 93% target.",
+        "Lead Data Quality Center 0-to-1 MVP development; commercial plan targets potential revenue of up to $5M over two years.",
+        "Work across products on multi-tenancy, account administration, payments, authentication, and authorization.",
         "Drive roadmap and investment decisions using customer needs, market opportunities, analytics, and business objectives.",
         "Delivered GenAI email copy capability (30% less campaign creation time) and Smart Audience Recommendation (10% less audience identification time).",
         "Partner on CRM and API integrations, technical design trade-offs, GTM, structured rollout, and product adoption."
       ],
       "links": [
+        [
+          "data-quality-center",
+          "Data Quality Center"
+        ],
+        [
+          "reference-retention",
+          "Revenue retention"
+        ],
+        [
+          "saas-foundations",
+          "Platform foundations"
+        ],
         [
           "enterprise",
           "SaaS leadership"
